@@ -3,9 +3,9 @@
 
 :root {
     --color1: #397552;
-    --color3: #75491d;
-    --color4: #010506;
-    --color5: #2D646F;
+    --color2: #41260b;
+    --color3: #010506;
+    --color4: #2D646F;
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 body, html {
-    background-color: var(--color5);
+    background-color: var(--color2);
     height: 100vh;
     width: 100vw;
 }
@@ -38,6 +38,7 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    transition: width 0.3s, height 0.3s;
 }
 
 section#login > div#imagem {
