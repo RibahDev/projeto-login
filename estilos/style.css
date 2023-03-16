@@ -95,7 +95,7 @@ div.campo > i {
 
 div.campo > input {
     font-size: 1em;
-    width: calc(100% - 46px);
+    width: calc(95% - 46px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
